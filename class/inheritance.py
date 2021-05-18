@@ -10,4 +10,7 @@ class C(B):
 o = C()
 print(o.v)
 
+# Inheritance follows left to right for multiple inheritance
+# and bottom to top for vertical inheritance
+
 # answer = 1

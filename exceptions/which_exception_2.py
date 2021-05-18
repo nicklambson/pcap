@@ -30,11 +30,11 @@ for cls in [B, C, D]:
         print("D")
 
 
-# except will match only the first matching exception class,
+# except will match only the *first matching exception class*
 # even if it's a super class.
 # for example, D is a subclass of C, which is a subclass
 # of B. When the D exception occurs, it matches the D subclass.
-# It's super classes also match the following lines, but D
+# Its super classes also match the following lines, but D
 # has already been executed. So only D is run. BCD
 
 # In the second example, each subclass class matches superclass B,

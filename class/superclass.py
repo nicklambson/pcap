@@ -7,8 +7,8 @@ class B(A):
         A.__init__(self)
         self.b = 2
 
-object = B()
-print(object.a)
-print(object.b)
+o = B()
+print(o.a)
+print(o.b)
 
 # If B is a subclass of A, then it should init A and pass itself.

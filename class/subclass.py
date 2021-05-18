@@ -18,3 +18,5 @@ print(issubclass(B,C)) # False
 print(issubclass(A,A)) # True
 print(issubclass(A,B)) # False
 print(issubclass(A,C)) # False
+
+# Evaluating if a class is a subclass of itself always returns True

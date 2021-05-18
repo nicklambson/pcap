@@ -10,3 +10,8 @@ def f(x):
 
 f(1)
 f(0)
+
+# bcac
+
+# else executes when there is no exception
+# finally always executes

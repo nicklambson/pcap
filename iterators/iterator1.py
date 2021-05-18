@@ -7,3 +7,4 @@ for x in I():
     print(x, end="")
 
 # answer: 'ace'
+# skip by 2s

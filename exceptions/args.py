@@ -1,5 +1,5 @@
 class Ex(Exception):
-    def __init__(self,msg):
+    def __init__(self, msg):
         Exception.__init__(self, msg + msg)
         self.args = (msg,)
 
@@ -18,8 +18,11 @@ except Exception as e:
 
 # but if self.args = msg
 # then prints ('e', 'x')
-# because it will interpret the msg as an iterable
+# because it will interpret the msg as a multi-element tuple
 # grabbing each character of the string
 
 # this would print exex
 # only if self.args is not reset to the singleton
+
+# An exception can be initialized with a message.
+# That message can be overridden with self.args.

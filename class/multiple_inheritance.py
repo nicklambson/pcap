@@ -14,5 +14,10 @@ o = C()
 o.c()
 
 # answer = 'b'
-# inheritance works bottom to top
-# and left to right
+# inheritance prioritizes bottom over top
+# and left over right
+
+print(issubclass(C, A))
+print(issubclass(C, B))
+
+# C is a subclass of B and of A. Both print true
